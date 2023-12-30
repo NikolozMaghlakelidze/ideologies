@@ -1,0 +1,479 @@
+.main-div{
+    width: 1440px;
+    margin: auto;
+}
+
+.main_div{
+    margin: auto;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(58, 201, 192);
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 200px;
+
+}
+.header_h1{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+.header_text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+.header_text1{
+    color: #fff;
+    font-size: 28px;
+}
+.kii{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section1{
+    display: flex;
+    margin-top: 150px;
+}
+.lk{
+    margin-left: -230px;
+}
+.ind_h4{
+    color: #fff;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.politic_imgs{
+    margin-top: 20px;
+    width: 260px;
+    height: 300px;
+    
+}
+.photos_a{
+height: 40px;
+color: #fff;
+background-color: rgb(221, 132, 7);
+text-align: center;
+justify-content: center;
+margin-left: 40px;
+padding: 10px;
+margin-top: 20px;
+font-size: 18px;
+transition: color 0.4s,  border 0.3s;
+}
+.photos_a:hover{
+background-color: coral;
+border: 3px solid seagreen;
+color: #1b055e;
+padding-top: 8px;
+cursor: pointer;
+}
+.diiv{
+    padding-left: 20px;
+}
+/* nacizmi  */
+.cherqez_div,
+.tekla_div{
+    background-color:rgb(220, 220, 104);
+    text-align: center;
+justify-content: center;
+padding-top: 30px;
+}
+.cherqez_section{
+     background-color: #fff;
+     padding-top: 30px;
+     margin-top: 60px;
+     padding-bottom: 60px;
+}
+.nacizmi_h,
+.kikil_h,
+.misho_h,
+.maghlak_text,
+.shoti_h,
+.tekla_h{
+    font-size: 32px;
+    color: maroon;
+}
+.nacizmi_text,
+.kikil_text,
+.misho_text,
+.shoti_text,
+.tekla_text{
+    font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.cherqez_img{
+    margin-left: 580px;
+    width: 300px;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cherqez_h,
+.kikil_h1,
+.misho_h1,
+.shoti_h1,
+.tekla_h1{
+    text-align: center;
+justify-content: center;
+margin-bottom: 20px;
+margin-top: 20px;
+font-size: 29px;
+color: rgb(73, 136, 192);
+}
+.cherqez_text,
+.shoti_text1,
+.tekla_text1{
+    color: #000;
+    font-size: 21px;
+    padding-left: 20px;
+    width: 1000px;
+margin: auto;
+transition:width 0.8s;
+/* height: 190px; */
+animation: text-appear 1s linear;
+}
+.kkl{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.maghlak_text1:hover{
+border: 1px solid firebrick;
+width: 1300px;
+font-size: 23px;
+}
+.kikil_text1:hover{
+    border: 1px solid firebrick;
+width: 1300px;
+font-size: 23px;
+}
+.tekla_text1:hover{
+    border: 1px solid firebrick;
+    width: 1100px;
+    font-size: 23px;
+}
+.misho_text1:hover{
+    border: 1px solid firebrick;
+width: 1300px;
+font-size: 23px
+}
+.cherqez_text:hover{
+border: 1px solid firebrick;
+width: 1100px;
+font-size: 23px;
+}
+.shoti_text1:hover{
+border: 1px solid firebrick;
+width: 1100px;
+font-size: 23px;
+}
+.kikil_text1,
+.misho_text1{
+    color: #000;
+    font-size: 21px;
+    padding-left: 20px;
+    width: 1200px;
+margin: auto;
+padding-bottom: 30px;
+transition:width 0.8s;
+    animation: text-appear 1s linear;
+   }
+   
+   .text-appear:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+    animation: text-appear 2s linear;
+   }
+   
+   @keyframes text-appear {
+     0% {
+       transform: translateX(-50%);
+    }
+     100% {
+       transform: translateX(0%);
+    }
+   }
+
+
+
+.kikil_img,
+.misho_img,
+.tekla_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cherqez{
+    margin-bottom: 60px;
+    display: flex;
+}
+.home_button{
+    margin-left: -150px;
+    margin-top: 200px;
+    padding-inline: 30px;
+    background-color: coral;
+    height: 30px;
+}
+.btn1{
+    margin-left:-945px;
+    padding-inline: 40px;
+    font-size: 20px;
+    width: 159px;
+    font-size: 15px;
+}
+.kikil_div,
+.shoti_div{
+    background-color:rgba(45, 209, 97, 0.526);
+    text-align: center;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.kikil_section{
+    margin: 100px auto;
+}
+.section1{
+    margin-bottom: 50px;
+    column-gap: 30px;
+    background-color: rgb(198, 39, 39);
+    display: flex;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+.misho-div{
+    background-color:rgb(83, 222, 44);
+    text-align: center;
+justify-content: center;
+padding-top: 30px;
+}
+.home_button1{
+    margin-left: -940px;
+    padding-inline: 30px;
+    background-color: coral;
+    height: 30px;
+    margin-top: 200px;
+    width: 129px;
+}
+
+.maghlak_text1{
+    width: 1230px;
+    margin: auto;
+margin-bottom: 30px;
+margin-top: 30px;
+    font-size: 21px;
+transition:width 0.8s;
+animation: text-appear 1s linear;
+}
+.maghlak_h1{
+    color: brown;
+    margin-left: 320px;
+    font-size: 30px;
+    padding-top: 29px;
+    padding-bottom: 30px;
+}
+.maghlak_img,
+.shoti_img{
+    width: 340px;
+    height: 320px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.maghlak_div{
+background-color: rgb(94, 234, 18);
+text-align: center;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 40px;
+margin-bottom: 50px;
+}
+.maglak_h1{
+    text-align: center;
+justify-content: center;
+margin-bottom: 20px;
+margin-top: 20px;
+font-size: 29px;
+color: rgb(31, 74, 202);
+}
+footer{
+    background-color: springgreen;
+    display: flex;
+    column-gap: 100px;
+    height: 180px;
+    justify-content: center;
+    text-align: center;
+}
+.footer_div{
+    margin-top: 100px;
+    padding-top: 55px;
+    justify-content: center;
+    text-align: center;
+}
+.footer_button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+color:#c40c24;;
+border: 3px solid #09478a;
+cursor: pointer;
+transition: color 0.3s, border-color 0.3s, font-size 0.6s, background-color 0.4s;
+}
+.footer_button:hover{
+    color: #07407d;
+    font-size: 17px;
+    border-color: #c40c24;
+    background-color: rgb(226, 233, 239);
+}
+.btnn1{
+    width: 200px;
+}
+.shoti_section{
+    margin-top: 50px;
+}
+
+   .cherqez_img,
+   .maghlak_img,
+   .shoti_img,
+   .kikil_img,
+   .misho_img,
+   .tekla_img{
+    max-width: 100%;
+    height: auto;
+    animation: zoom-in 0.5s 0.5s, rotate 0.5s linear 0.5s, wobble 1s 0.5s;
+   }
+   
+   @keyframes zoom-in {
+     0%, 100% {
+       transform: scale(1);
+    }
+     25% {
+       transform: scale(0.3);
+    }
+   }
+   
+   @keyframes rotate {
+     0% {
+       transform: rotateY(0deg);
+    }
+     100% {
+       transform: rotateY(1turn);
+    }
+   }
+   
+   @keyframes wobble {
+     0%, 100% {
+       transform: scale(1) rotate(0deg);
+    }
+     50% {
+       transform: scale(1) rotate(35deg);
+    }
+   }
+   .qvevita{
+    display: flex;
+    width: 100%;
+    margin-top: 480px;
+    margin-left: -1090px;
+    margin-bottom: 50px;
+    gap: 70px;
+   }
+   .bb{
+    margin-top: 20px;
+
+   }
+.politic_div{
+    height: 400px;
+}
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn27 {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn23 {
+  background-image: linear-gradient(
+    to right,
+    #009245,
+    #fcee21,
+    #00a8c5,
+    #d9e021
+  );
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
